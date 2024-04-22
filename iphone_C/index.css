@@ -1,0 +1,87 @@
+@media only screen and (max-width: 320px) {
+    /* Estilos específicos para dispositivos con ancho de pantalla de hasta 320px */
+    .navbar-brand {
+        font-size: 37px; /* Reducir el tamaño del texto del logo */
+        font-family: "Lobster";
+        color: white;
+        padding-bottom: 17px;
+    }
+    .navbar-nav {
+        font-size: 14px; /* Reducir el tamaño del texto del menú */
+    }
+    .navbar{
+        display: flex;
+        background-color: #373A3C;
+        height: 60px;
+        padding-bottom: 17px;
+
+    }
+    hr{
+        text-align: center;
+        padding-left: 300px;
+    }
+    .container-fluid{
+        padding-bottom: 17px;
+    }
+    .dropdown{
+        padding-right: 90px;
+        font-size: 10px;
+    }
+    .content img {
+        max-width: 200px; /* Ajustar el tamaño máximo de las imágenes */
+        height: auto; /* Mantener la proporción de la imagen */
+        padding: 17px;
+    }
+    .container {
+        padding: 0 10px; /* Reducir el relleno de los contenedores */
+    }
+    .site-content{
+        padding: 20px;
+        font-family: "Cabin";
+        font-weight: bold;
+    }
+    .botones{
+        padding-left: 0px;
+        display: flex;
+        font-size: 10px;
+    }
+    
+    .row{
+        font-family: "Cabin";
+        width: 300px;
+        margin-right: 10px;
+        padding: 0px 80px 0px 0px;
+        font-size: 10px;
+    }
+    footer{
+        color: white;
+        justify-content: center;
+        text-align: center;
+        width: 290px;
+        margin-left: 0px;
+        padding-left: 0px;
+        font-family: "Cabin";
+    }
+    .fred{
+        padding-right:70px ;
+        background-color: #DC3545;
+    }
+    .black-footer{
+        width: 290px;
+        padding-left:0px ;
+        text-align: center;
+        font-family: "Lobster";
+        background-color: #373A3C;
+        height: 40px;
+    }
+    #ultp{
+        font-size: 25px;
+        text-align: center;
+        padding-right: 55px;
+    }
+    /* Agrega otros estilos necesarios */
+}
+
+.navbar-brand{
+    font-family: "Lobster";
+}
